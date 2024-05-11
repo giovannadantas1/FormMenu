@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*vh para uma tela expansiva*/
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(126, 127, 126);
+}
+
+h1{
+    text-align: center;
+    color: rgb(10, 136, 62);
+}
+
+form{
+    display: flex;
+    flex-direction: column; /*deixar o formulario quadrado*/
+}
+
+.label{
+    margin-bottom: 5px;
+}
+
+input, select{
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(93, 145, 93);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button{
+    background-color: rgb(161, 218, 145);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer; /*pra aparecer a maozinha quando passa o mouse no botao*/
+    margin-bottom: 10px;
+
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(172, 237, 172);
+}
+

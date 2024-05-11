@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: antiquewhite;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block; /*bloco em linha para menu horizontal*/
+    background-color: rgb(5, 190, 5);
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(28, 167, 28);
+    margin-bottom: 2px;
+    padding: 5px 15px;
+    margin-left: -2px;
+    border-radius: 4px;
+}
+
+li a:hover{
+    background-color: rgb(169, 242, 96);
+}
+
+button{
+    background-color: rgb(161, 218, 145);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer; /*pra aparecer a maozinha quando passa o mouse no botao*/
+    margin-bottom: 10px;
+
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(172, 237, 172);
+}
